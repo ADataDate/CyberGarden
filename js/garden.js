@@ -1,5 +1,5 @@
-var activePageIndex = 0;
-var pages = [];
+let activePageIndex = 0;
+let pages = [];
 
 (function() {})()
 
@@ -10,10 +10,10 @@ function init() {
 }
 
 function setActivePage(newIndex) {
-  var newPage = pages[newIndex];
-  var currentPage = pages[activePageIndex];
-  var newNav = navigation[newIndex];
-  var currentNav = navigation[activePageIndex];
+  let newPage = pages[newIndex];
+  let currentPage = pages[activePageIndex];
+  let newNav = navigation[newIndex];
+  let currentNav = navigation[activePageIndex];
   if (currentPage) {
     currentPage.classList.add("inactive");
     currentPage.classList.remove("active");
