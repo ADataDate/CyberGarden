@@ -6,12 +6,12 @@
 	<title>CyberGarden</title>
 	<meta name="keywords" content="CU Boulder,CyberGarden,visualization,public,explanatory,hci">
 	<link rel="stylesheet" type="text/css" href="/css/garden.css" media="screen" />
-	<!-- <link rel="stylesheet" type="text/css" href="/css/canvas.css" media="screen" /> -->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.js"></script>
-	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/addons/p5.sound.min.js"></script> -->
+	<script src="https://d3js.org/d3.v6.min.js"></script>
 	<script src="/js/garden.js"></script>
+	<script type="module" src="/js/d3.js"></script>
 </head>
 
 <body onload="init()">
@@ -52,6 +52,8 @@
 					<div class="overview airq" id="air-canvas">
 						<h4><span class="material-icons-outlined sm">air</span>Air Quality</h4>
 					</div>
+					<div id="temp-detailed" style="background-color: red;"></div>
+					<div id="temp-ts" style="background-color: red;"></div>
 				</div>
 			</section>
 			<section class="page inactive">

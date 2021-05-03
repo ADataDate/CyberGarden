@@ -7,7 +7,6 @@ const s = (sketch) => {
   let width = 180;
   let height = 95;
   let img = sketch.loadImage('../img/gauge-center.svg');
-  console.log(sketch);
   sketch.setup = () => {
     let canvas = sketch.createCanvas(width, height);
     // canvas.id("")
