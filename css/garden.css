@@ -3,6 +3,7 @@ body {
   height: 100vh;
   width: 100vw;
   font-family: "Open Sans";
+  border: 0px !important;
 }
 
 h1 {
@@ -128,7 +129,7 @@ canvas {
 }
 
 .detailed {
-  width: 360px;
+  width: 410px;
   height: 130px;
   margin-left: 10px;
   background-color: #fff;
@@ -139,7 +140,7 @@ canvas {
 }
 
 .time-series {
-  width: 570px;
+  width: 625px;
   height: 100px;
   margin-top: 10px;
   margin-left: 10px;
@@ -164,4 +165,8 @@ canvas {
     visibility: visible;
     opacity: 1;
   }
+}
+
+.vsc-initialized {
+  border: none !important;
 }
