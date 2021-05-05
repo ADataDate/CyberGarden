@@ -25,6 +25,7 @@ const createTempGraphs = () => {
   d3.select('#temp-detailed').attr("class", "detailed animation active ");
   d3.select('#temp-ts').attr("class", "time-series animation active");
   d3.select("#iframe1").attr("class", "active");
+  d3.select("#iframe2").attr("class", "active");
 
   // let iframe1 = document.getElementById("iframe1");
   // let iframeElementy = (iframe1.contentWindow || iframe1.contentDocument);
